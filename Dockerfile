@@ -1,4 +1,4 @@
-	FROM nginx
+    FROM nginx
 
     RUN apt-get update -qq && apt-get -y install apache2-utils
     ENV NODE_ROOT /var/www/api-gateway
